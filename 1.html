@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>领导留言板</title>
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      padding: 20px;
+      background-color: rgb(251, 251, 251);
+    }
+
+    h1 {
+      text-align: center;
+      color: #ae1919;
+      padding-bottom: 30px;
+      font-family: 宋体;
+      font-size: 40px;
+    }
+
+    .bar {
+      font-size: 20px;
+      line-height: 2;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .problem-container {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 20px 20px rgba(105, 7, 7, 0.1);
+      margin-bottom: 90px;
+      display: flex;
+      align-items: center;
+    }
+
+    .reply-container {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 20px 20px rgba(105, 7, 7, 0.1);
+    }
+
+    .problem-container p {
+      margin: 0;
+      font-size: 16px;
+      line-height: 2;
+      padding-bottom: 30px;
+    }
+
+    .line1 {
+      display: block;
+      width: 100%;
+      height: 2px;
+      background-color: #d3d3d3;
+      margin-top: 0;
+      margin-bottom: 0px;
+    }
+
+    .line2 {
+      display: block;
+      width: 100%;
+      height: 1px;
+      background-color: #d4d4d4;
+      margin-top: 0;
+      margin-bottom: 0px;
+    }
+
+    .reply-container p {
+      margin: 0;
+      color: #555;
+      font-size: 16px;
+      line-height: 2;
+      padding-bottom: 30px;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>领导留言板</h1>
+  
+  <div class="bar">
+    <p>
+      <span style="margin-right: 5%; margin-left: 4%;">首页</span>
+      <span style="margin-right: 5%;">人民建议</span>
+      <span style="margin-right: 5%;">话题</span>
+      <span style="margin-right: 5%;">报道</span>
+      <span style="margin-right: 5%;">政企直通车</span>
+      <span style="margin-right: 5%;">案例库</span>
+      <span style="margin-right: 5%;">理论</span>
+      <span style="margin-right: 5%;">群众来信</span>
+      <br>
+      <span class="line1"></span>
+    </p>
+  </div>
+
+  <div class="container">
+    <div class="problem-container">
+      <p>
+        <span style="color: rgb(0, 0, 0); font-weight: bold; font-size: 25px; margin-right: 15px; line-height: 3;">小区环境</span> 
+        <span style="color: rgb(136, 136, 136); margin-right: 15px; background-color: rgb(231, 236, 253);">投诉/求助</span>
+        <span style="color: rgb(54, 121, 176); margin-right: 15px; background-color: rgb(225, 255, 255);">环保</span>
+        <span style="color: rgb(225, 100, 100); margin-right: 15px; margin-bottom: 30px; background-color: rgb(254, 234, 234);">已办理</span>
+        <br>
+        <span style="color: rgb(0, 0, 0); margin-right: 2%; line-height: 1;">W***</span> 
+        <span style="color: rgb(136, 136, 136); margin-right: 2%;">ID: 147937937</span>
+        <span style="color: rgb(136, 136, 136); margin-right: 2%;">2023-05-25 16:12</span>
+        <br>
+        <span class="line2"></span>
+        <br>
+        <span style="color: black;">问题：我是原江市山海苑小区的一名业主，我们小区西门常年有收废品的和倒腾垃圾的在那边处理垃圾，致使小区环境脏乱差，
+          西门那里脏乱不堪，味道还特别大，严重影响了我们的正常生活，希望能得到解决，谢谢！</span>
+      </p>
+    </div>
+
+    <div class="reply-container">
+      <p>
+        <span style="color: rgb(0, 0, 0); font-weight: bold; font-size: 25px; margin-right: 15px; line-height: 3;">官方回复</span>
+        <br>
+        <span style="color: rgb(0, 0, 0); margin-right: 2%; line-height: 1;">原江市生态环境局西平分局</span> 
+        <span style="color: rgb(136, 136, 136); margin-right: 2%;">2023-06-21 09:34</span>
+        <br>
+        <span class="line2"></span>
+        <br> 
+        <span style="color: black;">您好, 感谢您对我们工作的信任和支持, 我们非常理解您的心情, 收到您的留言后我们高度重视，真诚希望我们的回复对您有所帮助。
+        经长安街道核实，您反映地点为山海苑小区西门内，经调查, 该处随地摆放垃圾环境差的原因是物业管理不善。
+        相关负责人到现场指导后立即督促物业全面整改, 收废品人员及垃圾车已于6月20日上午移出小区, 地面已无堆放垃圾。</span>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
